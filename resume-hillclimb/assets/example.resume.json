@@ -1,0 +1,96 @@
+{
+  "layout": {
+    "font": "Arial",
+    "bodyPt": 10,
+    "marginSideIn": 0.5,
+    "marginTbIn": 0.45,
+    "contactPt": 9.5
+  },
+  "name": "Jordan Lee",
+  "headline": "Senior Product Manager | Payments and Risk",
+  "contact": [
+    {
+      "label": "Denver, CO · Remote"
+    },
+    {
+      "label": "(555) 010-2030"
+    },
+    {
+      "label": "jordan@example.com",
+      "url": "mailto:jordan@example.com"
+    },
+    {
+      "label": "linkedin.com/in/jordan-lee-example",
+      "url": "https://www.linkedin.com/in/jordan-lee-example/"
+    }
+  ],
+  "summary": "Product manager with eight years in payments and risk. I ship fraud models with the guardrails around them, and I measure every launch against chargebacks and false declines.",
+  "sections": [
+    {
+      "title": "Experience",
+      "entries": [
+        {
+          "org": "Northwind Payments",
+          "desc": "fraud platform used by about 400 online merchants",
+          "roles": [
+            {
+              "title": "Senior Product Manager, Risk",
+              "dates": "2021 – Present",
+              "bullets": [
+                {
+                  "text": "Cut false declines **from 3.1% to 1.4%** by shipping a review queue that sends borderline orders to people instead of auto-declining them.",
+                  "evidence": [
+                    "E1"
+                  ],
+                  "candidate_ok": true
+                },
+                {
+                  "text": "Set the launch criteria for a new fraud model at a two-week shadow run, with rollback if chargebacks rose.",
+                  "evidence": [
+                    "E2"
+                  ],
+                  "candidate_ok": true
+                },
+                {
+                  "text": "Killed a planned rules editor after interviews showed merchants wanted fewer settings, and shipped presets instead.",
+                  "evidence": [
+                    "E3"
+                  ],
+                  "candidate_ok": true
+                }
+              ]
+            },
+            {
+              "title": "Senior Risk Analyst",
+              "note": "promoted from Risk Analyst",
+              "dates": "2017 – 2021",
+              "bullets": [
+                {
+                  "text": "Wrote the dispute playbook the team still uses, which halved time to first response.",
+                  "evidence": [
+                    "E4"
+                  ],
+                  "candidate_ok": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "label": "Product",
+      "items": "Discovery, roadmaps, experiment design, model evaluation, pricing"
+    },
+    {
+      "label": "Domain",
+      "items": "Payments, chargebacks, fraud rules, KYC, PCI"
+    }
+  ],
+  "education": [
+    "University of Colorado, B.A. Economics",
+    "Certified Fraud Examiner"
+  ]
+}

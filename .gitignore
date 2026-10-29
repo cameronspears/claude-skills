@@ -1,0 +1,4 @@
+.DS_Store
+__pycache__/
+# Runs hold personal data. Keep them out of this repo.
+resume-hillclimb/20*/
