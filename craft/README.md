@@ -62,13 +62,17 @@ It adds a house style (glass you can see through over faintly lit backgrounds, f
 As a personal skill, available in every Claude Code session on your machine:
 
 ```bash
-git clone https://github.com/cameronspears/craft-skill ~/.claude/skills/craft
+git clone https://github.com/cameronspears/claude-skills ~/claude-skills
 ```
 
-Or for one project, so everyone working on it gets it:
+```bash
+mkdir -p ~/.claude/skills && ln -s ~/claude-skills/craft ~/.claude/skills/craft
+```
+
+Or for one project, so everyone working on it gets it, copy the folder in from the project's root:
 
 ```bash
-git clone https://github.com/cameronspears/craft-skill .claude/skills/craft
+mkdir -p .claude/skills && cp -R ~/claude-skills/craft .claude/skills/craft
 ```
 
 Then ask Claude to redesign, polish or build a page, or type `/craft`.
@@ -87,4 +91,4 @@ The skill paraphrases and adapts ideas from Anthropic's frontend-design skill, P
 
 ## Licence
 
-MIT. See `LICENSE`.
+MIT. See [`LICENSE`](../LICENSE).

@@ -28,12 +28,14 @@ It saves its state after every round, so a long run can stop and resume. It ends
 ## Install
 
 ```bash
-git clone https://github.com/cameronspears/resume-hillclimb.git
+git clone https://github.com/cameronspears/claude-skills ~/claude-skills
 ```
 
 ```bash
-mkdir -p ~/.claude/skills && cp -R resume-hillclimb/resume-hillclimb ~/.claude/skills/
+mkdir -p ~/.claude/skills && ln -s ~/claude-skills/resume-hillclimb ~/.claude/skills/resume-hillclimb
 ```
+
+The link means a `git pull` in `~/claude-skills` updates the skill.
 
 ## Use
 
@@ -66,4 +68,4 @@ Everything stays in the run folder on your machine, apart from what Claude Code 
 
 ## License
 
-MIT
+MIT. See [`LICENSE`](../LICENSE).
