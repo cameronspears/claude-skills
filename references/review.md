@@ -65,8 +65,10 @@ Evidence:
    line, unevenly spaced, clipped, cramped, bland, ugly, confusing, or not like the brand. Trust your
    eye; you don't need a rule to call something wrong.
 2. The rest of the page. Every section, every capture, every zoom, the same way.
-3. Use it. Press, toggle, drag, flick, hover, tab through. Does it feel like a joy or merely correct?
-   Name the moment you'd show a friend, or say there isn't one (<path-to-skill>/references/magic.md).
+3. Use it, and ask the question that matters as much as any bug: is this magic, or merely nice? Read
+   <path-to-skill>/references/magic.md. Name the moment you'd screen-record and send a friend, or say
+   plainly there isn't one. Name each section's plus, or say it has none. Where did you get bored? What
+   broke the spell? Press, toggle, drag, flick, hover, tab through.
 4. Only then, read <path-to-skill>/references/traps.md and check whether any of those traps are on the
    page.
 

@@ -1,20 +1,61 @@
 # craft
 
-A [Claude Code](https://claude.com/claude-code) skill for designing, building and redesigning web UI to the standard of Apple, Linear, Stripe and Vercel: pages that work without bugs, have nothing a careful eye would circle, and feel magical to use.
+A [Claude Code](https://claude.com/claude-code) skill for designing, building and redesigning web UI to the standard of Apple, Linear, Stripe and Vercel for craft, and Disney's Imagineers for delight: pages that work without bugs, have nothing a careful eye would circle, and feel like magic to use.
 
-It works by judgement, not by ticking rules. `SKILL.md` gives Claude six principles, a house style, and a workflow that makes it actually look at its work: render every state at four widths, use the page by pointer and touch, fix what it finds, then hand the result to fresh reviewers who judge it like a demanding owner and try to break it. Specific mistakes from past runs live in `references/traps.md` as examples, not as the whole list.
+## Made with craft
 
-## What you get
+Each of these was built or redesigned by Claude using this skill, start to finish.
 
-- **Six principles:** it works; nothing looks off; every state is designed and seen; it's a joy to use; the brand leads; accessible, fast and honest.
-- **A house style:** glass over faintly lit backgrounds, film grain on the background only, soft defined corners, buttons that sink into a shadow, springy motion you can grab and flick, and one "wow" moment per page. The brand's own colours, type and logo always come first.
-- **Tools** (Node 22+ and Chrome, no installs):
-  - `scripts/capture.mjs`: captures every section at each width, scripted interaction states, motion frames and 3x zooms.
-  - `scripts/audit.mjs`: checks contrast, focus rings, target sizes, overflow, reduced motion, table alignment, grain placement and more.
-  - `scripts/gate.mjs`: checks that the evidence for "done" exists before reporting.
-- **References:** tokens, components, motion, a guide to going from "nice" to "wow" drawn from Disney Imagineering, exemplars from great products, reviewer briefs, and the known traps.
-- **A specimen** (`assets/specimen.html`) showing the whole style working in light and dark.
-- **Evals** (`evals/`): three test cases with graders, in the layout `claude plugin eval` reads.
+**Gielinor Gains**, a real Old School RuneScape trading site, overhauled: a live top flip that tilts toward your pointer and rolls its numbers into place, and the Market in one glass panel.
+
+![Gielinor Gains homepage](showcase/gielinor-gains.jpg)
+
+Its "how it works" became a stage you can swipe, where one example trade builds itself step by step, and its free-versus-paid list became a comparison whose ticks draw in as you scroll.
+
+| | |
+| --- | --- |
+| ![How it works, a swipeable stage](showcase/gielinor-gains-how.jpg) | ![What's free and what Trader adds](showcase/gielinor-gains-compare.jpg) |
+
+**Stockroom**, a test inventory dashboard, restyled. Its wow moment is the reorder runway: drag the teal handle along the dates, and a count rolls, pins light up and the matching rows get marked.
+
+![Stockroom dashboard](showcase/dashboard.jpg)
+
+**Quill**, a test writing-app landing page, overhauled. The hero is a live editor: Accept all applies the edits one by one while the reading grade rolls from 15 down to 5, and a tone dial you can flick rewrites the paragraph.
+
+| | |
+| --- | --- |
+| ![Quill landing page](showcase/landing.jpg) | ![Quill on a phone](showcase/landing-phone.jpg) |
+
+**Tidewater**, the skill's own specimen (`assets/specimen.html`): the whole house style in one page, in light and dark. A route that draws itself, a sheet you can grab and flick, switches that squish, Save that morphs into a check.
+
+![Tidewater specimen](showcase/specimen.jpg)
+
+Screenshots can't show the motion and touch, which are half the point. Open `assets/specimen.html` in a browser to feel it.
+
+## How it works
+
+It drives Claude to the whole bar by judgement, not by ticking rules. `SKILL.md` gives seven equally important principles:
+
+1. **It works.** No bugs, at every width, in every state, at the extremes.
+2. **Nothing looks off.** Nothing a careful designer would circle.
+3. **Every state is designed and seen.** Hover, press, focus, loading, empty, error and more, all rendered and looked at.
+4. **It's magic, not just nice.** Staged the way Imagineers stage a park: one thing the eye goes to, a reveal, a delight added to every section, nothing that breaks the spell, and one wow moment someone would send a friend.
+5. **It's a joy to touch.** Things press, spring, follow your hand and settle; numbers roll; frequent actions never wait.
+6. **The brand leads, and the product is the hero.**
+7. **Accessible, fast and honest.**
+
+It adds a house style (glass you can see through over faintly lit backgrounds, film grain on the background only, soft defined corners, buttons that sink into a shadow, springy motion), and a workflow that makes Claude actually look at its work. It renders every state at four widths, uses the page by pointer and touch, takes a wow test, and fixes what it finds. Then it hands the result to fresh reviewers: a demanding owner who judges it in the first ten seconds, and a breaker who uses it until something fails. Specific mistakes from past runs live in `references/traps.md` as examples, not as the whole list.
+
+## What's inside
+
+- `SKILL.md`: the principles, house style and workflow.
+- `scripts/` (Node 22+ and Chrome, no installs):
+  - `capture.mjs`: every section at each width, scripted states, motion frames and 3x zooms.
+  - `audit.mjs`: contrast, focus rings, target sizes, overflow, reduced motion, table alignment, grain placement and more.
+  - `gate.mjs`: checks the evidence for "done" exists before reporting.
+- `references/`: tokens, components, motion and the joy kit, `magic.md` (from nice to wow, after Disney Imagineering), exemplars from great products, reviewer briefs and the known traps.
+- `assets/specimen.html`: the house style working in light and dark.
+- `evals/`: three test cases with graders, in the layout `claude plugin eval` reads.
 
 ## Install
 
@@ -42,7 +83,7 @@ The scripts open headless Chrome. Run them one at a time on machines with limite
 
 ## Credits
 
-The skill paraphrases and adapts ideas from Anthropic's frontend-design skill, Paul Bakaus's Impeccable, Emil Kowalski, Jakub Krehel, Leonxlnx's taste-skill, Dammyjay93's interface-design, Vercel's Web Interface Guidelines, Rauno Freiberg, Apple's Human Interface Guidelines, Josh W. Comeau and others. Full list with licences in `references/review.md` ("Sources and licences"). The code is original.
+The skill paraphrases and adapts ideas from Anthropic's frontend-design skill, Paul Bakaus's Impeccable, Emil Kowalski, Jakub Krehel, Leonxlnx's taste-skill, Dammyjay93's interface-design, Vercel's Web Interface Guidelines, Rauno Freiberg, Apple's Human Interface Guidelines, Josh W. Comeau and others, and the delight principles from Disney Imagineering (Marty Sklar's "Mickey's Ten Commandments"). The full list with licences is in `references/review.md` ("Sources and licences"). The code is original.
 
 ## Licence
 
