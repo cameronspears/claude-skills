@@ -1,0 +1,6 @@
+{
+  "E1": {"fact": "False decline rate fell from 3.1% to 1.4% after the review queue launched (Q3 to Q1)", "number": "3.1% -> 1.4%", "source": "launch review doc, Mar 2024", "confidence": "verified", "candidate_ok": true, "public": true},
+  "E2": {"fact": "Fraud model v2 released only after a two-week shadow run with chargeback rollback trigger", "source": "candidate interview", "confidence": "candidate-stated", "candidate_ok": true, "public": true},
+  "E3": {"fact": "Rules editor cancelled after 12 merchant interviews; presets shipped instead", "source": "discovery notes", "confidence": "verified", "candidate_ok": true, "public": true},
+  "E4": {"fact": "Dispute playbook halved median time to first response", "number": "50%", "source": "candidate's old resume", "confidence": "candidate-stated", "candidate_ok": true, "public": true}
+}

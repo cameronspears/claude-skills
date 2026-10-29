@@ -1,0 +1,7 @@
+{
+  "exclude": ["Contoso Bank", "Project Falcon"],
+  "vanity": ["lines of code", "story points", "tickets closed", "meetings"],
+  "banned": [],
+  "max_bold_per_role": 1,
+  "max_bullets_per_role": 7
+}
