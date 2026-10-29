@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: settings-build
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A settings.html built in Harbor's brand (Harbor Orange #C2410C for primary actions only, Schibsted
+  Grotesk, the anchor mark, light theme) with all five sections from brand.md working: toggles,
+  saving with a clear saved state, inviting and removing team members (including the pending invite),
+  and a delete flow that requires typing the marina name. Accessible (labels, switch roles, focus,
+  keyboard), designed states (errors, loading, empty team edge cases), works at 320px.

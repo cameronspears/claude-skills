@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: landing-redesign
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A redesigned index.html that keeps Quill's indigo (#4f46e5 family), logo and pricing, reads as a
+  confident product page with a point of view: no gradient text, emoji, eyebrow labels, purple
+  gradients or recessed wells, glass over a soft light field with spring motion; the fake-looking logo row and unattributed testimonials removed or flagged;
+  every control with designed states; works at 320px; passes WCAG AA contrast with visible focus rings.

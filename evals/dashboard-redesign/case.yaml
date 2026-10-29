@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: dashboard-redesign
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A redesigned index.html that keeps Stockroom's teal (#0f766e family) and logo and every piece of data
+  and feature, in one cohesive surface system: no gradients, emoji, red-to-green pills or coloured
+  left borders; status said in words; tabular, right-aligned numbers; every control with designed
+  hover, press, focus and disabled states; empty, loading and error states for the table; works at
+  320px; passes WCAG AA contrast and has visible, unclipped focus rings.
