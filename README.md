@@ -6,7 +6,7 @@ A [Claude Code](https://claude.com/claude-code) skill for designing, building an
 
 Each of these was built or redesigned by Claude using this skill, start to finish.
 
-**Gielinor Gains**, a real Old School RuneScape trading site, overhauled: a live top flip that tilts toward your pointer and rolls its numbers into place, and the Market in one glass panel.
+**Gielinor Gains**, a test redesign of a real Old School RuneScape trading site's homepage (not shipped): a live top flip that tilts toward your pointer and rolls its numbers into place, and the Market in one glass panel.
 
 ![Gielinor Gains homepage](showcase/gielinor-gains.jpg)
 
